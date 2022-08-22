@@ -1,0 +1,70 @@
+* {
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.padre {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.header {
+	background-color: black;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+	.menu {
+		background-color: cyan;
+		display: flex;
+		flex-flow: column nowrap;
+		height: 100px;
+		align-items: center;
+	}
+
+		.logo {
+			background: khaki;
+			flex: 1 1 auto;
+			height: 30px;
+		}
+
+		.nav {
+			background: blueviolet;
+			flex: 5 1 auto;
+			height: 30px;
+		}
+
+		.social {
+			background: #672344;
+			flex: 1 1 auto;
+			height: 30px;
+		}
+
+		.textoprincipal {
+			background: #235718;
+		}
+			h1 {
+				background: greenyellow;
+			}
+.section {
+	background: violet;
+}
+.article {
+	background: #458104;
+}
+.publicidad {
+	background: chocolate;
+}
+.navegacion {
+	background: pink;
+}
+.aside {
+	background: olivedrab;
+}
+.footer {
+	background: red;
+}
+.pie {
+	background: silver;
+}
